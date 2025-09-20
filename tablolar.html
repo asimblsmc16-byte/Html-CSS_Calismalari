@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablolar</title>
+  </head>
+  <body>
+    <table border="5" width="25%" cellpadding="2" cellspacing="5" > <!-- Border kullanışsız CSS te var. --> 
+      <thead> <!--Cellpadding Hücre Yazı Arası Mesafe--><!--cellspacing Hücre Arası Mesafe-->
+        <tr> <!-- Width sayfada ne kadar yer kaplanacığını ayarlıyor."%" -->
+            <th colspan="2">İd-Ürün Modeli</th>
+            <th>Fiyat</th>
+            <th>Resim</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>İphone 11</td>
+          <td>7000</td>
+          <td>1.jpeg</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td rowspan="2">İphone 12</td>
+          <td>8000</td>
+          <td>2.jpeg</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">9000-3.jpeg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
