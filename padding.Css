@@ -1,0 +1,20 @@
+#showcase {
+        background-color: #2e4c6d;
+        padding: 25px;
+      }
+      h1 {
+        padding: 15px;
+        background-color: aqua;
+      }
+      #how-it-works {
+        background-color: #fc997c;
+        padding: 10px;
+      }
+      nav {
+        background-color: #DADDFC;
+        padding: 15px;
+      }
+      a {
+        padding: 10px;
+        background-color: black;
+      }
