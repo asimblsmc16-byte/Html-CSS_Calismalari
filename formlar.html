@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="ad">Adiniz:</label>
+        <input type="text" id="ad" placeholder="Kullanıcı Adı Giriniz."/>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="soyad">Soyadiniz:</label>
+        <input type="text" id="soyad" />
+      </div>
+      
+      <br>
+      
+      <div>
+        <label for="dogumgunu">Doğum Tarihi:</label>
+        <input type="date" id="dogumgunu" min="1930-01-01" max="2007-12-31"/>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="sayi">Sayı Seç:</label>
+        <input type="number" id="sayi" min="-10" max="10"/>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="parola">Parola:</label>
+        <input type="password" id="parola" />
+      </div>
+
+      <br>
+
+      <div>
+        <label for="intro">Kendini Tanıt:</label>
+        <textarea id="intro" rows="" cols=""></textarea> <!-- İstersen Rows Cols Girilebilir. -->
+      </div>
+
+      <br>
+
+      <div>
+        <p>En Sevdiğin Programlama Dili Nedir ?</p>
+        <input type="radio" id="css" name="ensevilen">
+        <label for="css">CSS</label>
+
+        <input type="radio" id="javascript" name="ensevilen">
+        <label for="javascript">JavaScript</label>
+
+        <input type="radio" id="python" name="ensevilen">
+        <label for="python">Python</label>
+      </div>
+
+      <br>
+
+      <div>
+        <p>En Sevdiğin Programlama Dili Nedir ?</p>
+        <input type="checkbox" id="css2">
+        <label for="css2">CSS</label>
+
+        <input type="checkbox" id="javascript2">
+        <label for="javascript2">JavaScript</label>
+
+        <input type="checkbox" id="python2">
+        <label for="python2">Python</label>
+      </div>
+      
+      <br>
+
+      <div>
+        <label for="sehirler">Şehir:</label>
+        <select id="sehirler">
+            <option value="34">İstanbul</option>
+            <option value="41">Kocaeli</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="email">Email Adresinizi Giriniz:</label>
+        <input type="email" id="email">
+      </div>
+
+      <br>
+
+      <button type="submit">Kaydet</button>
+
+    </form>
+  </body>
+</html>
