@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    position: absolute;
+}
+.s1 {
+    background-color: darkgray;
+    outline: 1px solid red;
+}
+#div1 {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    width: 200px;
+    height: 550px;
+}
+#div2 {
+    position: absolute;
+    width: 750px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 450px;
+}
+.kutu1 {
+    margin: 50px;
+    background-color: darkblue;
+    outline: 1px solid red;
+    width: 220px;
+    height: 220px;
+}
+.kutu2 {
+    margin-top: -270px;
+    margin-left: 300px;
+    background-color: darkblue;
+    outline: 1px solid red;
+    width: 220px;
+    height: 220px;
+}
+.resim1 {
+    margin-top: -180px;
+    margin-left: 550px;
+    background-color: darkblue;
+    outline: 1px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.kutu3 {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: darkblue;
+    outline: 1px solid red;
+    width: 650px;
+    height: 150px;
+}
